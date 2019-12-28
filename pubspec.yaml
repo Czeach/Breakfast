@@ -1,0 +1,34 @@
+name: breakfast
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/salmon.jpg
+
+fonts:
+  - family: Bitter
+    fonts:
+      - asset: fonts/Bitter-Bold.ttf
+  - family: Muli
+    fonts:
+      - asset: fonts/Muli-VariableFont_wght.ttf
+  - family: CourierPrime
+    fonts:
+      - asset: fonts/CourierPrime-Bold.ttf
